@@ -4,7 +4,7 @@ function lowerCaseDrivers(arr) {
 }
 function nameToAttributes(arr) {
   const singleDrivers = []
-  const objectDrivers = []
+  let objectDrivers = []
   for (const el in arr) {
      singleDrivers.push(arr[el].split(' '))
   }
