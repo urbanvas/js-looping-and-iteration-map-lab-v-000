@@ -4,11 +4,11 @@ function lowerCaseDrivers(arr) {
 }
 
 function nameToAttributes(arr) {
-   arr.map(el => {
+  return arr.map(el => {
     return Object.assign({}, {firstName: el.split(' ')[0], lastName: el.split(' ')[1]})
   })
 }
 
 function attributesToPhrase(arr) {
-  
+
 }
