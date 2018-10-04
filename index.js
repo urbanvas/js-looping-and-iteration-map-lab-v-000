@@ -8,10 +8,12 @@ function nameToAttributes(arr) {
   for (const el in arr) {
      singleDrivers.push(arr[el].split(' '))
   }
+
+
   for (const people in singleDrivers) {
     objectDrivers = Object.assign({}, {firstName: people[0], lastName: people[1]})
   }
-  return objectDrivers
+  return singleDrivers
 }
 
 const drivers = [
