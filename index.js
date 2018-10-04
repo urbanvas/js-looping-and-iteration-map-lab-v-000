@@ -9,12 +9,3 @@ function nameToAttributes(arr) {
   }
   return objectDrivers
 }
-
-const drivers = [
-  'Bobby Smith',
-  'Sammy Watkins',
-  'Sally Jenkins',
-  'Annette Sawyer',
-  'Sarah Hucklebee',
-  'bobby ridge'
-];
