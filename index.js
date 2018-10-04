@@ -4,7 +4,7 @@ function lowerCaseDrivers(arr) {
 }
 function nameToAttributes(arr) {
   for (const el in arr) {
-    arr[el].split(' ')
+    return arr[el].split(' ')
   }
 }
 
@@ -16,4 +16,3 @@ const drivers = [
   'Sarah Hucklebee',
   'bobby ridge'
 ];
-
