@@ -7,3 +7,9 @@ function nameToAttributes(arr) {
   arr.map(el => {objectDrivers.push(Object.assign({}, {firstName: el.split(' ')[0], lastName: el.split(' ')[1]}))}
   return objectDrivers
 }
+
+function nameToAttributes(arr) {
+  arr.map(el => {
+    Object.assign({}, {firstName: el.split(' ')[0], lastName: el.split(' ')[1]
+  })
+}
