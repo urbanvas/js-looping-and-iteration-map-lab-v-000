@@ -12,7 +12,8 @@ function nameToAttributes(arr) {
 function attributesToPhrase(arr) {
   const arrStrings = []
   arr.map(el => {
-    return arrStrings.push(`${el.name} is from ${el.hometown}.`)
+    return arrStrings.push(`${el.name} is from ${el.hometown}`)
   })
+  debugger
   return arrStrings
 }
