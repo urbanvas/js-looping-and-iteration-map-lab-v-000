@@ -3,6 +3,7 @@ function lowerCaseDrivers(arr) {
   return arr.map(el => {return el.toLowerCase()})
 }
 function nameToAttributes(arr) {
+  let singleDrivers = []
   for (const el in arr) {
     return arr[el].split(' ')
   }
