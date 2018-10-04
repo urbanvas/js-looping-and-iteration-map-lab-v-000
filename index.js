@@ -15,4 +15,6 @@ function attributesToPhrase(arr) {
     return `${el.name} is from ${el.hometown}.`
   }))
   return arrStrings
+  debugger
+  
 }
