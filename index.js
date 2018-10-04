@@ -10,6 +10,6 @@ function nameToAttributes(arr) {
 
 function nameToAttributes(arr) {
   return arr.map(el => {
-    Object.assign({}, {firstName: el.split(' ')[0], lastName: el.split(' ')[1]})
+    return Object.assign({}, {firstName: el.split(' ')[0], lastName: el.split(' ')[1]})
   })
 }
