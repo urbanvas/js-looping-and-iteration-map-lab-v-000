@@ -4,7 +4,8 @@ function lowerCaseDrivers(arr) {
 }
 function nameToAttributes(arr) {
   const singleDrivers = []
-  for (const el in arr) {
+  for (const el of arr) {
+    arr[el].split(' ')
      singleDrivers.push(arr[el].split(' '))
      objectDrivers.push(Object.assign({}, el, {firstName: el[1], lastName: el[2]} ))
   }
