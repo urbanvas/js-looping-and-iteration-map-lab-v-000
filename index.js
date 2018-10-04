@@ -7,6 +7,7 @@ function nameToAttributes(arr) {
   for (const el in arr) {
      singleDrivers.push(arr[el].split(' '))
   }
+  return singleDrivers
 }
 
 const drivers = [
