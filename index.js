@@ -10,7 +10,8 @@ function nameToAttributes(arr) {
 }
 
 function attributesToPhrase(arr) {
-  return arr.map(el => {
+  const arrStrings = []
+  return arrStrings.push(arr.map(el => {
     return `${el.split(' ')[0]} is from ${el.split(' ')[1]}.`
-  })
+  }))
 }
