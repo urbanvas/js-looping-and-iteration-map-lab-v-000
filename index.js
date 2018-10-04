@@ -14,4 +14,5 @@ function attributesToPhrase(arr) {
   arrStrings.push(arr.map(el => {
     return `${el.name} is from ${el.hometown}.`
   }))
+  return arrStrings
 }
